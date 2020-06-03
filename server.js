@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-app.get('/', (req,res) => { res.send(database.users) })
+app.get('/', (req,res) => { res.send('it is working !!') })
 
 app.post('/signin', signin.handleSignin(db, bcrypt)); // -> function will receive the db,bcrypt first and then receive req,res later as refer to the previous line of get '/'
 
