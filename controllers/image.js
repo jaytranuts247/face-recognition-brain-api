@@ -10,7 +10,7 @@ const handleAPICall = (req, res) => {
 		.then((data) => {
 			res.json(data);
 		})
-		.catch((err) => res.stauts(400).json("unable to work with API"));
+		.catch((err) => res.stauts(400).json(err));
 };
 
 const handleImage = (req, res, db) => {
