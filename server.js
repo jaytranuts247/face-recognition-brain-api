@@ -26,6 +26,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
+console.log("process.env.DATABASE_URL\n", process.env.DATABASE_URL);
+
 app.get("/", (req, res) => {
 	res.send("it is working !!");
 });
