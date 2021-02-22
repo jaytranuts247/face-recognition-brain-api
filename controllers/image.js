@@ -12,7 +12,7 @@ const handleAPICall = (req, res) => {
 		// a403429f2ddf4b49b307e318f00e528b
 		.predict(
 			{
-				id: "a403429f2ddf4b49b307e318f00e528b",
+				id: "53e1df302c079b3db8a0a36033ed2d15",
 				version: "c0c0ac362b03416da06ab3fa36fb58e3",
 			},
 			req.body.input
